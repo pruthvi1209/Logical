@@ -1,7 +1,7 @@
 let n = 153;
 //Find the lenght of Given Number
 function findNoOfDigits(x) {
-    return n.toString().length;
+    return x.toString().length;
 }
 
 function findIfAmstrong(n,exp) {

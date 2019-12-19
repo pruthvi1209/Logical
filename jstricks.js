@@ -1,5 +1,5 @@
-if(true, false) {
-    console.log("if condition with boolean, boolean with take later boolean")
+if(true, false, true) {
+    console.log("if condition with <boolean, boolean ......> will take later boolean")
 } else {
     console.log("In this case its FALSE");
 }
@@ -15,7 +15,7 @@ const data = {
 spreadOperator(1,2,3,"a","a","a");
 console.log(delete data.age);
 console.log(delete data.age);
-
-console.log(data);
+data.hasOwnProperty("age") ? delete data.age : console.log("NOT FOUND!!!!!!", data.age);
+console.log(data, data.age);
 
 
