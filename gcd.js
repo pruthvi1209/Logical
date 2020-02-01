@@ -25,4 +25,4 @@ function findGCD(a,b) {
     return findGCD(a, b-a);
 }
 
-console.log(gcd(20,0))
+console.log(gcd(18,81))
